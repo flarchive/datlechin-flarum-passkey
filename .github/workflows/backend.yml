@@ -1,0 +1,15 @@
+name: Passkey PHP
+
+on: [workflow_dispatch, push, pull_request]
+
+jobs:
+  run:
+    uses: flarum/framework/.github/workflows/REUSABLE_backend.yml@1.x
+    with:
+      enable_backend_testing: true
+      backend_directory: .
+      # The extension requires php ^8.2 (web-auth/webauthn-lib >=8.2); the
+      # reusable workflow's default matrix starts at 7.3, where composer
+      # install can't resolve. Restrict it to the supported range — the
+      # workflow's own include/exclude already handles 8.2+ deprecations.
+      php_versions: '["8.2", "8.3", "8.4", "8.5"]'
