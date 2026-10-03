@@ -2,13 +2,16 @@
 
 > **Read-only archive of released versions of datlechin/flarum-passkey.** Not for installation: use [Packagist](https://packagist.org/packages/datlechin/flarum-passkey) or the [upstream repository](https://github.com/datlechin/flarum-passkey).
 
-**0** versions archived · Latest: [`v2.0.0`](https://github.com/flarchive/datlechin-flarum-passkey/tree/archive/v2.0.0) · License: `MIT` · Flarum: `^2.0`
+**4** versions archived · Latest: [`v2.0.0`](https://github.com/flarchive/datlechin-flarum-passkey/tree/archive/v2.0.0) · License: `MIT` · Flarum: `^2.0`
 
 ## Archived Versions
 
 | Version | Released | Flarum | Source |
 |---|---|---|---|
-| — | — | — | — |
+| `v1.0.0` | 2026-05-09 | `^2.0` | [Browse](https://github.com/flarchive/datlechin-flarum-passkey/tree/archive/v1.0.0) |
+| `v1.0.1` | 2026-05-09 | `^2.0` | [Browse](https://github.com/flarchive/datlechin-flarum-passkey/tree/archive/v1.0.1) |
+| `v1.1.0` | 2026-05-15 | `^1.8.0` | [Browse](https://github.com/flarchive/datlechin-flarum-passkey/tree/archive/v1.1.0) |
+| `v2.0.0` | 2026-05-15 | `^2.0` | [Browse](https://github.com/flarchive/datlechin-flarum-passkey/tree/archive/v2.0.0) |
 
 Catalog entry: [packages/datlechin-flarum-passkey.json](https://github.com/flarchive/archive-index/blob/main/packages/datlechin-flarum-passkey.json)
 
